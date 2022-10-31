@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>file saves in This Computer</h1>
+    <p ondblclick="hello()"></p>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">Time is?</button>
+    <p id="demo"></p>
+    <p id="into"></p>
+    <script>
+
+
+        var a = {
+            fname: "ram",
+            lname: "kumar",
+            age: "20",
+            email: "ram@.com"
+        }
+        document.getElementById("demo").innerHTML = a.fname + "<br>" + a.lname + "<br>" + a.age;
+        console.log(a);
+
+        var a = 99;
+        var num = (a);
+
+        console.log(num);
+
+        let x = 123e5;
+        let y = 123e-5;
+        //document.getElementById("into").innerHTML = x + "<br>" + y;
+        document.write(x + "<br>" + y);
+
+    </script>
+
+</html>

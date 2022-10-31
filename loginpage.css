@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://colibriwp.com/blog/wp-content/uploads/2019/06/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up-form {
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8px auto 0;
+    text-align: center;
+    /* max-width: 600px;
+    margin: 30px auto; */
+
+}
+
+.jj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form h1 {
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border: 2px solid;
+    outline: none;
+}
+
+.button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.signup-btn {
+    background-color: #1c8abd98;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.twitter-btn {
+    background-color: #21afde6b;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or {
+    background-color: #fff;
+    width: 30px;
+    margin: -26px auto 10px;
+}
+
+.img {
+    width: 100%;
+    margin-top: 50px;
+    size: 50%;
+}
+
+#emailerror {
+    color: red;
+}
+
+#passerror {
+    color: red;
+}

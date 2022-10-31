@@ -1,0 +1,113 @@
+<html>
+
+<body>
+
+    <h2>JavaScript new Date()</h2>
+
+    <p>Using new Date(7 numbers), creates a new date object with the specified date and time:</p>
+
+    <p id="demo"></p>
+    <p id="hel"></p>
+    <p id="fri"></p>
+
+    <script>
+        const d = new Date(2018, 11, 24, 10, 33, 30, 0);
+        document.getElementById("demo").innerHTML = d;
+
+        var a = 10;
+        var b = 20;
+        var c = 10 + 20;
+        console.log(c)
+
+        let x = 15 * 5;
+        debugger;
+        console.log(x)
+
+
+        let y = "Hello";
+        y = 5;
+        console.log(typeof y);
+        //document.getElementById.innerHTML(" hel").innerHTML = typeof y; 
+
+
+        let day;
+        switch (new Date().getDay()) {
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break; s
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+            default:
+                day = "unknown";
+        }
+        document.getElementById("fri").innerHTML = "Today is " + day;
+
+        var today = new Date();
+        var dd = today.getDate();
+
+        var mm = today.getMonth() + 1;
+        var yyyy = today.getFullYear();
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+
+        if (mm < 10) {
+            mm = '0' + mm;
+        }
+        today = mm + '-' + dd + '-' + yyyy;
+        console.log(today);
+        today = mm + '/' + dd + '/' + yyyy;
+        console.log(today);
+        today = dd + '-' + mm + '-' + yyyy;
+        console.log(today);
+        today = dd + '/' + mm + '/' + yyyy;
+        console.log(today);
+
+
+
+        var side1 = 5;
+        var side2 = 6;
+        var side3 = 7;
+        var s = (side1 + side2 + side3) / 2;
+        var area = Math.sqrt(s * ((s - side1) * (s - side2) * (s - side3)));
+        console.log(area);
+
+
+        var a = 2;
+        var b = 5;
+        var c = a * b;
+        //var c = (a + b);
+        console.log(c);
+
+        function animate_string(id) {
+            var element = document.getElementById(id);
+            var textNode = element.childNodes[0]; // assuming no other children
+            var text = textNode.data;
+
+            setInterval(function () {
+                text = text[text.length - 1] + text.substring(0, text.length - 1);
+                textNode.data = text;
+            }, 100);
+        }
+
+    </script>
+
+</body>
+
+</html>
