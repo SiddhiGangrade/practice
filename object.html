@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="car"></p>
+    <p id="person"></p>
+    <p id="fruit"></p>
+</body>
+
+
+<script>
+    const cars = [
+        "Saab",
+        "Volvo",
+        "BMW"
+    ];
+    document.getElementById("demo").innerHTML = cars;
+    document.write("cars")
+    console.log(cars)
+    alert(cars);
+
+
+    let marks_class_12 = [56, 90, 6, 46, undefined, "not present"]
+    console.log(marks_class_12)
+
+    const car = ["Saab", "Volvo", "BMW"];
+    document.getElementById("car").innerHTML = cars[0];
+
+    const person = ["john", 34, "raj"];
+    console.log(person[1]);
+    document.getElementById("person").innerHTML = person[2];
+
+    var company = ["name", "salary", "age"]
+    console.log(company)
+    alert(company);
+
+
+    // var ary = [10, 29, 38, 40, 50, 49];
+    // document.write("<ul>");
+
+    var ary = new Array(3);
+
+
+    for (var a = 0; a < + 4; a++) {
+        // document.write("<li>" + ary[a] + "</li>");
+        ary[a] = prompt("Enter the value : ");
+    }
+    document.write("</ul>");
+    for (var a = 0; a < 4; a++) {
+        Document.write("<li>" + ary[a] + "</li>");
+    }
+    document.write("</ul");
+
+
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("fruit").innerHTML = fruits;
+
+    // alert(ary[3]);
+
+
+
+</script>
+
+</html>

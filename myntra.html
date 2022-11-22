@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="myntra.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar background ">
+        <ul class="nav-list " id="manulist">
+            <div class="logo">
+                <img src="https://m.media-amazon.com/images/I/81KoSSAwH2L._SL1500_.jpg" alt="logo">
+            </div>
+            <li><a href="#"> Home</a> </li>
+            <li><a href="#About"> About</a></li>
+            <li><a href="#Services"> Services</a></li>
+            <li><a href="#Contact Us"> Contact Us</a></li>
+        </ul>
+        <div class="rightNav ">
+            <input type="text" name="search" id="search">
+            <button class="btn">Search</button>
+        </div>
+
+        <div class="burger" onclick="toggle()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </nav>
+
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The future of Education is here</p>
+                <p class="text-small">In this world of 7 billion people. The future of education id here. this world of
+                    7 billion people. The future of india</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+
+            </div>
+            <div class="secondHalf">
+                <img src="https://m.media-amazon.com/images/I/81KoSSAwH2L._SL1500_.jpg" alt="laptop Image">
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section" id="Services">
+        <div class="paras">
+            <p class="sectioTag text-big">The end of your seearch is here.</p>
+            <p class="sectionSubTag text-small">Education is a purposeful activity directed at achieving certain aims,
+                such as transmitting knowledge or fostering skills and character traits. These aims may include the
+                development of understanding, rationality, kindness, and honesty. </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg" alt="laptop emage"
+                class="imgFluid dummy_image" style="width:100%; height:100%;">
+        </div>
+    </section>
+
+    <section class="section section-left" id="About">
+        <div class="paras">
+            <p class="sectioTag text-big">Trasformatn Education in india.</p>
+            <p class="sectionSubTag text-small">Some researchers, like R. S. Peters, have proposed precise definitions
+                by spelling out the necessary and sufficient conditions of education, for example: it is concerned
+                with the transmission of knowledge and understanding; this transmission is worthwhile and done
+                in a morally appropriate manner in tune with the student's interests. This and similar
+                attempts are often successful at characterizing the most paradigmatic forms of education but have
+                received numerous criticisms nonetheless, usually in the form of specific counterexamples for which the
+                proposed criteria fail.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg" alt="laptop emage"
+                class="imgFluid" style="width:100%; height:100%;">
+        </div>
+    </section>
+
+    <section class="section ">
+        <div class="paras">
+            <p class="sectioTag text-big">Lets grow together.</p>
+            <p class="sectionSubTag text-small">Formal education plays a central role in modern civilization. But in
+                primitive cultures, most of the education happens not on the formal but on the informal
+                level. This usually means that there is no distinction between activities focused on
+                education and other activities. Instead, the whole environment may be seen as a form of school and many
+                or all adults may act as teachers. An important reason for moving to formal forms of education is due to
+                the sheer quantity of knowledge to be passed on, which requires both a formal setting and well-trained
+                teachers to be transmitted effectively.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg" alt="laptop emage"
+                class="imgFluid" style="width:100%; height:100%;">
+        </div>
+    </section>
+
+
+    <section class="contact" id="Contact Us">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input class="form-input" type="Phone" name="Phone" id="Phone" placeholder="Enter Your Phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                placeholder="Ellaborate your concern"></textarea>
+            <button class="btn btn-sm" id="dark">Submit </button>
+        </div>
+
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            copyright &copy; 2027 - www.iEducated.com - All rights reserved
+        </p>
+
+    </footer>
+
+    <script src="myntra.js">
+
+    </script>
+
+
+</body>
+
+
+</html>

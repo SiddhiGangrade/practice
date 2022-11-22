@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.creative {
+    background-color: black;
+    background-image: url(https://www.free-css.com/assets/files/free-css-tem…ew/page279/creative-design/assets/imgs/header.jpg);
+    margin-bottom: 70px;
+    padding: 60px;
+}
+
+.amet {
+    box-sizing: inherit;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 120px;
+    color: white;
+    padding: 100px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+p {
+    opacity: 1;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 0;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+
+.about {
+    background-color: #fff;
+    box-shadow: 0 3px 80px rgba(173, 181, 189, .3), 0 0 10px rgba(173, 181, 189, .3) !important;
+    border-radius: 0.2rem;
+    padding: 70px;
+    position: relative;
+    display: block;
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: left;
+}
+
+.dolor {
+    padding: 100px;
+
+    display: block;
+    color: #495057;
+}
+
+.dolord {
+    background-color: white;
+    padding: 90px;
+}
+
+/* .img{
+    background-position: cover;
+    width: 100%;
+    height:90px;
+    /* height: 10px; */
+/* background-size: cover; */
+/* } */
+*/ .img img {
+    height: 8vh;
+    object-fit: fill;
+    width: 100%;
+}
+
+@media screen and (min-width: 545px) {
+    h6 {
+        margin-bottom: 25px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-top: 0;
+        font-size: 60px;
+    }
+
+
+    .out button {
+        min-width: 50px;
+    }
+}
+
+h3 {
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #495057;
+}
+
+
+.card {
+    background-color: #eaf0fc;
+    text-align: center;
+    display: block;
+    box-sizing: inherit;
+    font-family: Ubuntu, sans-serif;
+    color: #495057;
+    padding-bottom: 60px;
+}
+
+.man {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -webkit-transform: translateY(-45px);
+    -ms-transform: translateY(-45px);
+    transform: translateY(-45px);
+    background: #fff;
+    padding: 5px;
+    vertical-align: middle;
+    border-style: none;
+    text-align: center;
+}
+
+.talk {
+    height: 100px;
+}
+
+.let {
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/16/20/29/nyc-4854718__480.jpg);
+    background-size: cover;
+    /* padding: 150px;  */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40%;
+}
